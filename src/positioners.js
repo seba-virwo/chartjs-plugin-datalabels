@@ -1,6 +1,6 @@
 function orient(point, origin) {
-  var x0 = origin.x;
-  var y0 = origin.y;
+  var x0 = origin?.x;
+  var y0 = origin?.y;
 
   if (x0 === null) {
     return {x: 0, y: -1};
